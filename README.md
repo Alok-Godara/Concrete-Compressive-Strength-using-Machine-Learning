@@ -61,7 +61,7 @@ The model is trained over 100 epochs. Plots of loss curves and predictions versu
    ```
 
 ## 📁 Project Structure
-
+```
 smart-infra-concrete-strength/
 │
 ├── data/
@@ -77,7 +77,7 @@ smart-infra-concrete-strength/
 ├── requirements.txt                    # List of Python dependencies
 └── README.md                           # Project overview and instructions
 
-
+```
 ## 📊 Model Summary
 
 - **Architecture:** Feedforward Neural Network
