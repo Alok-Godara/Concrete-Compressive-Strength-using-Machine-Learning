@@ -49,3 +49,58 @@ The model is trained over 100 epochs. Plots of loss curves and predictions versu
    ```bash
    git clone https://github.com/your-username/smart-infra-concrete-strength.git
    cd smart-infra-concrete-strength
+
+
+## 📊 Model Summary
+
+- **Architecture:** Feedforward Neural Network
+- **Best configuration:** 3 hidden layers [128, 64, 32] with ReLU activation
+- **Optimizer:** SGD with momentum
+- **Evaluation Metrics:**
+  - Mean Squared Error (MSE): ~29.93
+  - Root Mean Squared Error (RMSE): ~5.47
+  - Mean Absolute Error (MAE): ~3.98
+  - R² Score: ~0.89
+
+## 📈 Results Visualization
+
+Training and validation progress:
+
+> ![Loss Curve](plots/loss_curve.png)  
+> *Training and Validation MSE Loss*
+
+> ![MAE Plot](plots/mae_plot.png)  
+> *Mean Absolute Error over epochs*
+
+> ![Prediction vs Actual](plots/prediction_vs_actual.png)  
+> *Predicted vs Actual Strength*
+
+## 🧪 Additional Features
+
+- Learning rate schedules (step decay, cosine annealing)
+- Regularization using dropout layers
+- Final model saved as `concrete_strength_prediction_model.h5`
+- Optimization utility to **suggest mix designs** for a **target compressive strength**
+
+## 🧠 Potential Enhancements
+
+- Add other ML models for comparison (Random Forest, XGBoost, etc.)
+- Integrate with a simple Streamlit or Flask web app
+- Use SHAP for better feature importance insights
+- Make the optimizer results exportable (CSV)
+
+## 📄 License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+---
+
+## 👨‍🔬 Author
+
+- Alok Godara – [B22CI004]  
+Smart Infrastructure Course Project – CIL3090  
+Indian Institute of Technology, Jodhpur
+
+---
+
+*Feel free to fork, star ⭐, or contribute to this project!*
