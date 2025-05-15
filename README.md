@@ -124,8 +124,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## 👨‍🔬 Author
 
-- Alok Godara – [B22CI004]  
-Smart Infrastructure Course Project – CIL3090  
+- Alok Godara   
 Indian Institute of Technology, Jodhpur
 
 ---
