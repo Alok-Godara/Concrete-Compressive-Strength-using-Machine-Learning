@@ -46,9 +46,36 @@ The model is trained over 100 epochs. Plots of loss curves and predictions versu
 ## 🚀 How to Run
 
 1. Clone this repo:
-   ```bash
+   ```
    git clone https://github.com/your-username/smart-infra-concrete-strength.git
    cd smart-infra-concrete-strength
+   ```
+
+2. Install dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+3. Run the script:
+   ```
+   python smart_infra_project.py
+   ```
+
+## 📁 Project Structure
+
+smart-infra-concrete-strength/
+│
+├── data/
+│   └── Concrete_Data.xls               # Raw dataset
+│
+├── plots/                              # Saved training/evaluation plots (to be added)
+│   ├── loss_curve.png
+│   ├── mae_plot.png
+│   └── prediction_vs_actual.png
+│
+├── smart_infra_project.py              # Full code for data preprocessing, training and optimization
+├── Smart_Infra_Project.pdf             # Detailed report (includes results and explanation)
+├── requirements.txt                    # List of Python dependencies
+└── README.md                           # Project overview and instructions
 
 
 ## 📊 Model Summary
